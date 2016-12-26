@@ -14,7 +14,6 @@ class downloader
 public:
     downloader();
 
-    void check(CURLcode result);
     void add_url(string url);
     void clear_url();
     void perform_downloads(vector<string> & downloaded_pages);
@@ -22,6 +21,7 @@ public:
     ~downloader();
 
 private:
+    void check(CURLcode result);
     static size_t write_callback(char * ptr, size_t size, size_t nmemb, void * void_ptr);
     void collect_data(char * ptr, size_t size, size_t nmemb);
     CURL * ez_handle;
