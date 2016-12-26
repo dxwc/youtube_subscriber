@@ -17,6 +17,7 @@ foruse:
 	rm $(OBJS)
 	mkdir -p code
 	mv -i *.cpp *.h Makefile README.md code/
+	mv -i .git/ code/
 	@echo "Done!"
 
 .PHONY : clean
