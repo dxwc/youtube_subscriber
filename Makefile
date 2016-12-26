@@ -16,7 +16,7 @@ downloader.o : downloader.h
 foruse:
 	rm $(OBJS)
 	mkdir -p code
-	mv -i *.cpp *.h Makefile code/
+	mv -i *.cpp *.h Makefile README.md code/
 	@echo "Done!"
 
 .PHONY : clean
