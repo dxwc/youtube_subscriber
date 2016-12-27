@@ -52,7 +52,7 @@ void downloader::perform_downloads(vector<string> & downloaded_pages)
 		check(curl_easy_setopt(ez_handle, CURLOPT_URL, string_urls[i].c_str()));
 
 		downloaded_page = "";
-		cout << "--Download progress: " << i+1 << " of " << i_end << '\n';
+		cout << "--Downloading progress: " << i+1 << " of " << i_end << '\n';
 		check(curl_easy_perform(ez_handle));
 		downloaded_pages.push_back(downloaded_page);
 	}
