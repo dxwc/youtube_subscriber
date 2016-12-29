@@ -23,7 +23,7 @@ foruse:
 .PHONY : clean
 
 clean:
-	rm run $(OBJS)
+	rm $(OBJS)
 
 # Additional requirement other than C++ and Linux: 
 # LibCURL
