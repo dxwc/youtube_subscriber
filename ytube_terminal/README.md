@@ -19,13 +19,11 @@ I have aliases in my `~/.bashrc`
 alias ysub='your-download-location/./run -sub "$@"'
 
 # if using firefox browser
-alias yview='cd your-download-location; ./run -gen -view; cd -'
+alias yview='cd your-download-location; ./run -gen -view'
 
 # if using some other browser
-alias yview='cd /loc/to/downloaded/folder/; ./run -gen; # your-terminal-command-to-open-your-browser yt_view_subscription.html; cd -'
+alias yview='cd /loc/to/downloaded/folder/; ./run -gen; # your-terminal-command-to-open-your-browser yt_view_subscription.html'
 ```
-
-After alias, replace ./run with ysub or yview as appropriate and can be used from any directory
 
 
 # About

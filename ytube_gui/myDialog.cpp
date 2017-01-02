@@ -21,7 +21,7 @@ myDialog::myDialog(QWidget * parent) : QDialog(parent)
 
 	QObject::connect(
 			openButton, SIGNAL(clicked()),
-			this, SLOT(open_firefox())
+			this, SLOT(open_webBrowser())
 			);
 
 	QObject::connect(
@@ -45,7 +45,7 @@ myDialog::myDialog(QWidget * parent) : QDialog(parent)
 void myDialog::genOpenClicked()
 {
 	emit generate_clicked();
-	emit open_firefox();
+	emit open_webBrowser();
 }
 
 void myDialog::generate_clicked()
@@ -147,7 +147,7 @@ void myDialog::sub_clicked()
 	}
 }
 
-void myDialog::open_firefox()
+void myDialog::open_webBrowser()
 {
 	QFileInfo a_file("yt_view_subscription.html");
 	if(a_file.exists() && a_file.isFile())

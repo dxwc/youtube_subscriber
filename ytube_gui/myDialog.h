@@ -21,7 +21,7 @@ class myDialog : public QDialog, public Ui::Form, public downloader, public yt_f
 		string subscribe(string url); // overriding virtual
 
 	public slots:
-		void open_firefox();
+		void open_webBrowser();
 		void sub_clicked();
 		void list_clicked();
 		void generate_clicked();
