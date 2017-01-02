@@ -20,7 +20,7 @@ Note: ignore the compiler warnings, they will not cause any failures
 It should look like this image:
 ![gui demo](./images/img_1.png)
 
-# Usages
+# Use
 Hopefully is obvious.
 
 # About
