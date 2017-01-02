@@ -1,0 +1,9 @@
+*
+!*/
+!*.cpp
+moc_*
+!*.h
+!*.ui
+!*.pro
+!.gitignore
+!README.md
