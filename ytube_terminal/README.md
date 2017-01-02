@@ -1,5 +1,5 @@
 # Youtube Subscriber
-Downloads feed from youtube channel and generates a simple html/css page to embed/display thumbnail/video link. As is should only work on linux.
+Downloads feed from youtube channels and locally generates a simple html/css page to embed/display thumbnail/video link. As is should only work on linux due to the use of `strptime` on ![youtube_parser.cpp](./functions/youtube_parser.cpp).
 
 # Setup
 1. Clone / download this repo
@@ -20,9 +20,6 @@ alias ysub='your-download-location/./run -sub "$@"'
 
 # if using firefox browser
 alias yview='cd your-download-location; ./run -gen -view'
-
-# if using some other browser
-alias yview='cd /loc/to/downloaded/folder/; ./run -gen; # your-terminal-command-to-open-your-browser yt_view_subscription.html'
 ```
 
 
