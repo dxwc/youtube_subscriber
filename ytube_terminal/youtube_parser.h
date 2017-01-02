@@ -1,5 +1,5 @@
-#ifndef YOUTUBE_PARSER
-#define YOUTUBE_PARSER
+#ifndef YOUTUBE_PARSER_H
+#define YOUTUBE_PARSER_H
 // parses downloaded webpage from youtube feed/video/channel url
 #include <string>
 #include <ctime>

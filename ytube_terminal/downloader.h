@@ -1,5 +1,5 @@
-#ifndef DOWNLOADER
-#define DOWNLOADER
+#ifndef DOWNLOADER_H
+#define DOWNLOADER_H
 
 #include <curl/curl.h>
 #include <cstring>

@@ -1,5 +1,5 @@
-#ifndef YT_FUNCTIONS
-#define YT_FUNCTIONS
+#ifndef YT_FUNCTIONS_H
+#define YT_FUNCTIONS_H
 // subscribe, list, generate-html, view-html
 
 #include "youtube_parser.h"
