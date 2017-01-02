@@ -1,14 +1,14 @@
-# Youtube Subscriber
-Downloads feed from youtube channel and generates a simple html/css page to embed/display thumbnail/video link. As is should only work on linux.
+<img src="./images/img_1.png" align="left" width="40%" alt="GUI demo" />
 
-![gui demo](./images/img_1.png)
+# Youtube Subscriber
+Downloads feed from youtube channels and locally generates a simple html/css page to embed/display thumbnail/video link. As is should only work on linux due to the use of `strptime` on ![youtube_parser.cpp](./functions/youtube_parser.cpp).
 
 # Setup
 * Make sure you have:
-	* Qt installed (qt 4), ex: `sudo apt install libqt4-dev`
+	* Qt installed, ex: `sudo apt install libqt4-dev`
 	* libCurl installed, ex: `sudo apt install libcurl4-gnutls-dev`
 
-* Clone and `cd` into this folder and execute this commands in terminal:
+* Clone and `cd` into this folder and execute these commands in terminal:
 	* `qmake ytube_gui.pro`
 	* `make`
 
@@ -16,8 +16,8 @@ Note: ignore the compiler warnings, they will not cause any failures.
 
 # Run
 * Either
-	* go into directory in terminal and `./ytube` or,
-	* go to the directory in gui and double click the program to start using it
+	* go into the directory in terminal and `./ytube` or,
+	* go into the directory and double click the executable
 
 # Use
 Hopefully is obvious.
