@@ -2,6 +2,7 @@
 !*/
 !*.cpp
 moc_*
+!ytube_terminal/Makefile
 !*.h
 !*.ui
 !*.pro
