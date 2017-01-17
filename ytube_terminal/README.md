@@ -16,10 +16,10 @@ Downloads feed from youtube channels and locally generates a simple html/css pag
 I have aliases in my `~/.bashrc`
 ```
 # shortcut to subscription
-alias ysub='your-download-location/./run -sub "$@"'
+alias ysub='cd your-download-location/; ./run -sub "$@"'
 
 # if using firefox browser
-alias yview='cd your-download-location; ./run -gen -view'
+alias yview='cd your-download-location/; ./run -gen -view'
 ```
 
 
