@@ -9,7 +9,7 @@ Downloads feed from youtube channels and locally generates a simple html/css pag
       2. Run: `./configure` then
       3. `sudo make` and then
       4. `sudo make install`
-3. Go into downloaded(cloned) directory in a terminal and run: `make`
+3. Go into downloaded(cloned) directory here (youtube_subscriber/ytube_terminal) in a terminal and run: `make`
 4. If everything compiled and produced no error, run: `make foruse`
 5. If no error, setup is complete. Now, can run the program as such: `./run`
 
