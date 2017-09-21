@@ -1,5 +1,5 @@
-#ifndef YT_FUNCTIONS
-#define YT_FUNCTIONS
+#ifndef YT_FUNCTIONS_H
+#define YT_FUNCTIONS_H
 // subscribe, list, generate-html, view-html
 
 #include "youtube_parser.h"
@@ -44,6 +44,7 @@ class yt_functions
 			"<!DOCTYPE html>"
 			"\n<html>"
 			"\n<head>"
+                        "\n<meta charset='UTF-8'>"
 			"\n<title>Cool Stuff</title>"
 			"\n<style type=\"text/css\">"
 			"\nbody{background-color: #B4B4B4;}"
@@ -91,4 +92,4 @@ class yt_functions
 		string full; // html
 };
 
-#endif // YT_FUNCTIONS
+#endif /* YT_FUNCTIONS_H */
