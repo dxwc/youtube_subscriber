@@ -1,5 +1,5 @@
 # Youtube Subscriber
-Downloads feed from youtube channels and locally generates a simple html/css page to embed/display thumbnail/video link. As is should only work on linux due to the use of `strptime` on ![youtube_parser.cpp](./youtube_parser.cpp).
+Downloads feed from youtube channels and locally generates a simple html/css page to embed/display thumbnail/video link. As is should only work on linux due to the use of `strptime` on ![youtube_parser.cpp](./youtube_parser.cpp) (See [youtube_subscriber.js](https://github.com/dxwc/youtube_subscriber.js) for implementation with Node.js that will work crossplatform).
 
 # Setup
 1. Clone / download this repo
